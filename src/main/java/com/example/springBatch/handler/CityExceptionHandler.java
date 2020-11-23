@@ -14,7 +14,7 @@ public class CityExceptionHandler {
 
     @ExceptionHandler(value = {NoSuchElementException.class})
     public ResponseEntity<?> handler01(){
-        return new ResponseEntity<ErrorMessage>(new ErrorMessage("Resource not found Error 404"),HttpStatus.NOT_FOUND);
+        return new ResponseEntity<ErrorMessage>(new ErrorMessage("Resource not found Error 404, Using Controller Advice"),HttpStatus.NOT_FOUND);
     }
     
 }

@@ -36,6 +36,7 @@ public class LoadController {
         while(jobExecution.isRunning()) {
             System.out.println(">>>");
         }
+        System.out.println("Done");
 
         return jobExecution.getStatus();
     }

@@ -1,7 +1,6 @@
 package com.example.springBatch.controller;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 import com.example.springBatch.model.City;
 import com.example.springBatch.model.ErrorMessage;
@@ -62,9 +61,10 @@ public class CityController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
-    @DeleteMapping("/trucate")
-    public ResponseEntity<?> tryncateCity() {
+    @GetMapping("/truncate")
+    public ResponseEntity<?> truncateCity() {
         cityRepository.deleteAll();
-        return new ResponseEntity<>(HttpStatus.OK);
+        System.out.println("Deleted all the entries");
+        return new ResponseEntity<String>("Deleted all the entries", HttpStatus.OK);
     }
 }
