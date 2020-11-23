@@ -39,13 +39,9 @@ public class CityController {
 
     @GetMapping("/cities/{id}")
     public ResponseEntity<?> getCityById(@PathVariable("id") String id) {
-        try {
+    
             return new ResponseEntity<City>(cityRepository.findById(Integer.parseInt(id)).get(), HttpStatus.OK);
-        }
-
-        catch (NoSuchElementException e) {
-            return new ResponseEntity<ErrorMessage>(new ErrorMessage("Resource not found Error 404"),HttpStatus.NOT_FOUND);
-        }
+        
     }
 
     @PostMapping("/cities")
