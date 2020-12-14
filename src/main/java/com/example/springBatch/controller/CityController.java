@@ -38,7 +38,7 @@ public class CityController {
             return new ResponseEntity<List<City>>(cities, HttpStatus.OK);
         }
         else{
-            logger.error("Resource not found");
+            logger.error("Resource not found that is City is empty");
             return new ResponseEntity<ErrorMessage>(new ErrorMessage("resource not found"),HttpStatus.NOT_FOUND);
         }
     }

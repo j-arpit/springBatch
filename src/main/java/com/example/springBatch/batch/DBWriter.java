@@ -17,7 +17,6 @@ public class DBWriter implements ItemWriter<City> {
 
     @Override
     public void write(List<? extends City> items) throws Exception {
-        // TODO Auto-generated method stub
         System.out.println("Data loaded for City" + items);
         cityRepository.saveAll(items);
 

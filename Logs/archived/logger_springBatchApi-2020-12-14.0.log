@@ -1,0 +1,48 @@
+2020-12-14 12:48:07,685 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 14620 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 12:48:07,687 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 12:48:07,687 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 12:48:10,821 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 3.531 seconds (JVM running for 3.846)
+2020-12-14 12:48:45,459 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-8] Total Time taken by this batch179
+2020-12-14 12:49:29,964 INFO com.example.springBatch.controller.CityController [http-nio-8066-exec-9] Deleted all the entries
+2020-12-14 12:49:46,354 ERROR com.example.springBatch.controller.CityController [http-nio-8066-exec-1] Resource not found
+2020-12-14 13:34:51,365 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 10584 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 13:34:51,367 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 13:34:51,367 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 13:34:53,338 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.287 seconds (JVM running for 2.601)
+2020-12-14 13:35:04,352 ERROR com.example.springBatch.controller.CityController [http-nio-8066-exec-1] Resource not found that is City is empty
+2020-12-14 22:25:59,680 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 13132 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 22:25:59,683 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 22:25:59,683 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 22:26:02,039 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.709 seconds (JVM running for 3.023)
+2020-12-14 22:26:26,957 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-9] Total Time taken by this batch104
+2020-12-14 22:46:25,017 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 2872 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 22:46:25,019 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 22:46:25,019 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 22:46:27,132 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.436 seconds (JVM running for 2.729)
+2020-12-14 22:46:33,733 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-1] Total Time taken by this batch110
+2020-12-14 23:14:30,142 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 1684 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 23:14:30,143 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 23:14:30,144 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 23:14:32,173 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.333 seconds (JVM running for 2.601)
+2020-12-14 23:14:39,101 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-1] Total Time taken by this batch166
+2020-12-14 23:14:39,913 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-3] Total Time taken by this batch122
+2020-12-14 23:14:40,107 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-4] Total Time taken by this batch115
+2020-12-14 23:14:40,303 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-2] Total Time taken by this batch124
+2020-12-14 23:26:44,707 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 13380 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 23:26:44,709 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 23:26:44,709 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 23:26:46,644 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.217 seconds (JVM running for 2.483)
+2020-12-14 23:27:18,645 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-1] Total Time taken by this batch146
+2020-12-14 23:36:28,386 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 14536 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 23:36:28,387 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 23:36:28,388 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 23:36:30,357 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.25 seconds (JVM running for 2.52)
+2020-12-14 23:36:38,828 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-1] Total Time taken by this batch210
+2020-12-14 23:46:53,947 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 18244 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 23:46:53,948 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 23:46:53,949 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 23:46:55,933 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.262 seconds (JVM running for 2.522)
+2020-12-14 23:47:39,638 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 11516 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 23:47:39,639 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 23:47:39,640 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 23:47:41,818 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 2.466 seconds (JVM running for 2.741)
