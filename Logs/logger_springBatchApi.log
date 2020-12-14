@@ -1,0 +1,7 @@
+2020-12-14 12:48:07,685 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBatchApplication on LAPTOP-R5AI2H7A with PID 14620 (F:\workstation\springBatch\target\classes started by arpit in F:\workstation\springBatch)
+2020-12-14 12:48:07,687 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.6.RELEASE, Spring v5.2.11.RELEASE
+2020-12-14 12:48:07,687 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-14 12:48:10,821 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBatchApplication in 3.531 seconds (JVM running for 3.846)
+2020-12-14 12:48:45,459 INFO com.example.springBatch.controller.LoadController [http-nio-8066-exec-8] Total Time taken by this batch179
+2020-12-14 12:49:29,964 INFO com.example.springBatch.controller.CityController [http-nio-8066-exec-9] Deleted all the entries
+2020-12-14 12:49:46,354 ERROR com.example.springBatch.controller.CityController [http-nio-8066-exec-1] Resource not found

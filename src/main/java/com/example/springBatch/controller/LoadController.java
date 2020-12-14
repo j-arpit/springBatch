@@ -14,6 +14,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.BatchStatus;
 
 @RestController
@@ -26,18 +28,16 @@ public class LoadController {
     @Autowired
     Job job;
 
+    Logger logger = LoggerFactory.getLogger(this.getClass());
+
     @GetMapping
     public BatchStatus load() throws JobExecutionAlreadyRunningException, IllegalArgumentException, JobRestartException, JobInstanceAlreadyCompleteException, JobParametersInvalidException{
+        long starttime = System.currentTimeMillis();
         JobParameters jobParameters = new JobParameters();
         JobExecution jobExecution =  jobLauncher.run(job, jobParameters);
+        long endtime = System.currentTimeMillis();
+        logger.info("Total Time taken by this batch" + (endtime-starttime));
         System.out.println("JobExecution: " + jobExecution.getStatus());
-
-        System.out.println("Batch is running");
-        while(jobExecution.isRunning()) {
-            System.out.println(">>>");
-        }
-        System.out.println("Done");
-
         return jobExecution.getStatus();
     }
 }
